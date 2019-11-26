@@ -54,68 +54,68 @@
 
 ## [Concepts](https://kubernetes.io/docs/concepts/)
 
-* Overview :heavy_check_mark:
-	* [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) :heavy_check_mark:
-	* [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/) :heavy_check_mark:
-	* [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) :heavy_check_mark:
-	* Working with Kubernetes Objects :heavy_check_mark:
-		* [Understanding Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/) :heavy_check_mark:
-		* [Kubernetes Object Management](https://kubernetes.io/docs/concepts/overview/working-with-objects/object-management/) :heavy_check_mark:
-		* [Names](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/) :heavy_check_mark:
-		* [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) :heavy_check_mark:
-		* [Labels and Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/) :heavy_check_mark:
-		* [Annotations](https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/) :heavy_check_mark:
-		* [Field Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/field-selectors/) :heavy_check_mark:
-		* [Recommended Labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/) :heavy_check_mark:
-* Cluster Architecture :heavy_check_mark:
-	* [Nodes](https://kubernetes.io/docs/concepts/architecture/nodes/) :heavy_check_mark:
-	* [Master-Node Communication](https://kubernetes.io/docs/concepts/architecture/master-node-communication/) :heavy_check_mark:
-	* [Controllers](https://kubernetes.io/docs/concepts/architecture/controller/) :heavy_check_mark:
-	* [Concepts Underlying the Cloud Controller Manager](https://kubernetes.io/docs/concepts/architecture/cloud-controller/) :heavy_check_mark:
-* Containers :heavy_check_mark:
-	* [Images](https://kubernetes.io/docs/concepts/containers/images/) :heavy_check_mark:
-	* [Container Environment Variables](https://kubernetes.io/docs/concepts/containers/container-environment-variables/) :heavy_check_mark:
-	* [Runtime Class](https://kubernetes.io/docs/concepts/containers/runtime-class/) :heavy_check_mark:
-	* [Container Lifecycle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/) :heavy_check_mark:
-* Workloads :heavy_check_mark:
-	* Pods :heavy_check_mark:
-		* [Pod Overview](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) :heavy_check_mark:
-		* [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) :heavy_check_mark:
-		* [Pod Lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/) :heavy_check_mark:
-		* [Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/) :heavy_check_mark:
-		* [Pod Preset](https://kubernetes.io/docs/concepts/workloads/pods/podpreset/) :heavy_check_mark:
-		* [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/) :heavy_check_mark:
-		* [Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/) :heavy_check_mark:
-		* [Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/) :heavy_check_mark:
-	* Controllers :heavy_check_mark:
-		* [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) :heavy_check_mark:
-		* [ReplicationController](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/) :heavy_check_mark:
-		* [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) :heavy_check_mark:
-		* [StatefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/) :heavy_check_mark:
-		* [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) :heavy_check_mark:
-		* [Garbage Collection](https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/) :heavy_check_mark:
-		* [TTL Controller for Finished Resources](https://kubernetes.io/docs/concepts/workloads/controllers/ttlafterfinished/) :heavy_check_mark:
-		* [Jobs - Run to Completion](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/) :heavy_check_mark:
-		* [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/) :heavy_check_mark:
-* Services, Load Balancing, and Networking :heavy_check_mark:
-	* [Endpoint Slices](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/) :heavy_check_mark:
-	* [Service](https://kubernetes.io/docs/concepts/services-networking/service/) :heavy_check_mark:
-	* [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/) :heavy_check_mark:
-	* [Connecting Applications with Services](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/) :heavy_check_mark:
-	* [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) :heavy_check_mark:
-	* [Ingress Controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/) :heavy_check_mark:
-	* [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) :heavy_check_mark:
-	* [Adding entries to Pod /etc/hosts with HostAliases](https://kubernetes.io/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases/) :heavy_check_mark:
-	* [IPv4/IPv6 dual-stack](https://kubernetes.io/docs/concepts/services-networking/dual-stack/) :heavy_check_mark:
-* Storage :heavy_check_mark:
-	* [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/) :heavy_check_mark:
-	* [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) :heavy_check_mark:
-	* [Volume Snapshots](https://kubernetes.io/docs/concepts/storage/volume-snapshots/) :heavy_check_mark:
-	* [CSI Volume Cloning](https://kubernetes.io/docs/concepts/storage/volume-pvc-datasource/) :heavy_check_mark:
-	* [Storage Classes](https://kubernetes.io/docs/concepts/storage/storage-classes/) :heavy_check_mark:
-	* [Volume Snapshot Classes](https://kubernetes.io/docs/concepts/storage/volume-snapshot-classes/) :heavy_check_mark:
-	* [Dynamic Volume Provisioning](https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/) :heavy_check_mark:
-	* [Node-specific Volume Limits](https://kubernetes.io/docs/concepts/storage/storage-limits/) :heavy_check_mark:
+* Overview
+	* [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+	* [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+	* [The Kubernetes API](https://kubernetes.io/docs/concepts/overview/kubernetes-api/)
+	* Working with Kubernetes Objects
+		* [Understanding Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)
+		* [Kubernetes Object Management](https://kubernetes.io/docs/concepts/overview/working-with-objects/object-management/)
+		* [Names](https://kubernetes.io/docs/concepts/overview/working-with-objects/names/)
+		* [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
+		* [Labels and Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/)
+		* [Annotations](https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/)
+		* [Field Selectors](https://kubernetes.io/docs/concepts/overview/working-with-objects/field-selectors/)
+		* [Recommended Labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/)
+* Cluster Architecture
+	* [Nodes](https://kubernetes.io/docs/concepts/architecture/nodes/)
+	* [Master-Node Communication](https://kubernetes.io/docs/concepts/architecture/master-node-communication/)
+	* [Controllers](https://kubernetes.io/docs/concepts/architecture/controller/)
+	* [Concepts Underlying the Cloud Controller Manager](https://kubernetes.io/docs/concepts/architecture/cloud-controller/)
+* Containers
+	* [Images](https://kubernetes.io/docs/concepts/containers/images/)
+	* [Container Environment Variables](https://kubernetes.io/docs/concepts/containers/container-environment-variables/)
+	* [Runtime Class](https://kubernetes.io/docs/concepts/containers/runtime-class/)
+	* [Container Lifecycle Hooks](https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/)
+* Workloads
+	* Pods
+		* [Pod Overview](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)
+		* [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/)
+		* [Pod Lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/)
+		* [Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)
+		* [Pod Preset](https://kubernetes.io/docs/concepts/workloads/pods/podpreset/)
+		* [Pod Topology Spread Constraints](https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/)
+		* [Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
+		* [Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)
+	* Controllers
+		* [ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+		* [ReplicationController](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/)
+		* [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+		* [StatefulSets](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)
+		* [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/)
+		* [Garbage Collection](https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/)
+		* [TTL Controller for Finished Resources](https://kubernetes.io/docs/concepts/workloads/controllers/ttlafterfinished/)
+		* [Jobs - Run to Completion](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/)
+		* [CronJob](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/)
+* Services, Load Balancing, and Networking
+	* [Endpoint Slices](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/)
+	* [Service](https://kubernetes.io/docs/concepts/services-networking/service/)
+	* [DNS for Services and Pods](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/)
+	* [Connecting Applications with Services](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/)
+	* [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+	* [Ingress Controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
+	* [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+	* [Adding entries to Pod /etc/hosts with HostAliases](https://kubernetes.io/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases/)
+	* [IPv4/IPv6 dual-stack](https://kubernetes.io/docs/concepts/services-networking/dual-stack/)
+* Storage
+	* [Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)
+	* [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+	* [Volume Snapshots](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)
+	* [CSI Volume Cloning](https://kubernetes.io/docs/concepts/storage/volume-pvc-datasource/)
+	* [Storage Classes](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+	* [Volume Snapshot Classes](https://kubernetes.io/docs/concepts/storage/volume-snapshot-classes/)
+	* [Dynamic Volume Provisioning](https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/)
+	* [Node-specific Volume Limits](https://kubernetes.io/docs/concepts/storage/storage-limits/)
 * Configuration
 	* [Configuration Best Practices](https://kubernetes.io/docs/concepts/configuration/overview/)
 	* [Resource Bin Packing for Extended Resources](https://kubernetes.io/docs/concepts/configuration/resource-bin-packing/)
